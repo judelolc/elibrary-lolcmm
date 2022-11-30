@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+    <head>
+        <title>LOAN FEATURES</title>
+            <style>
+                body{
+                    margin: 0;
+                    padding: 20px;
+                    box-sizing: border-box;
+                    background-color: rgb(243, 243, 243);
+                    cursor: pointer;
+                }
+                .table{                    
+                    width: 100%;
+                    border-collapse:collapse;
+                    margin-top: 5px;
+                }
+                .table td, .table th{
+                    padding: 10px 13px;
+                    border: 1px solid rgb(248, 243, 243);
+                    text-align: left;
+                    font-size: 13px;
+                }
+                .table th{
+                    background-color: rgb(233, 52, 61);
+                    color: white;
+                    
+                }
+                .table td{
+                    background-color: rgb(72, 72, 163);
+                    color: white;
+                    
+                }
+                .ml{
+                    width: 100%;
+                    box-sizing: border-box;
+                    background-color: rgb(18, 8, 109);
+                    border-radius: 10px;
+                    margin: 0;
+                    padding: 0; 
+                    padding-bottom: 3px;                                                
+                }
+                .topic{
+                    width: 100%;
+                    background-color:rgb(26, 26, 77) ;
+                    padding:0.1px;
+                    margin-bottom: 10px;
+                    color: white;
+                    font-family: sans-serif;
+                    text-align: center;
+                    border-radius: 10px;
+                    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+                                                            
+                }               
+                details{
+                    background-color: rgb(80, 105, 219);
+                    color: rgb(238, 226, 226);
+                    padding: 5px;
+                    border-radius: 7px;
+                    outline: 1px;
+                    margin: 5px;                    
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                summary{
+                    background-color: rgba(255, 255, 255, 0.89);
+                    color: rgb(219, 22, 22);
+                    padding: 5px;
+                    outline: 1px solid rgb(68, 70, 163);
+                    border-radius: 7px;
+                }
+                li, p{
+                    margin-left: 20px;
+                    padding :5px 10px; 
+                    font-size: 13px;               
+                }
+
+                /*Responsive*/
+                @media (max-width: 500px);{
+                    .table thead{
+                        display: none;
+                    }
+
+                    .table, .table tbody, .table tr, .table td{
+                        display: block;
+                        width: 100%;
+                    }
+
+                    .table tr{
+                        margin-bottom: 15px;
+                    }
+                    .table td{
+                        text-align: right;
+                        padding-left: 15%;
+                        position: relative;
+                    }
+                    .table td::before{
+                        content: attr(data-label);
+                        position: absolute;
+                        left: 0;
+                        width: 50%;
+                        padding-left: 15px;
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                }
+                    
+                
+               
+            </style>
+            </head>
+
+            <body>
+            <div class="ml">   
+                <div class="topic"><h2>01. MICRO LOAN</h2></div>
+                <details>
+                    <summary><b>TARGET MARKET</b></summary>
+                    <table class="table border=1">
+                        <thead>                       
+                            <th width="33%" height="100%">NEW</th>                        
+                            <th width="33%" height="100%">EXISTING - WITH CASH</th>
+                            <th width="33%" height="100%">EXISTING - WITHOUT CASH</th>                        
+                        </thead>
+                        <tbody>
+                            <tr>                      
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                            </tr>                        
+                            <tr>                      
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>  
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>                          
+                            </tr>
+                            <tr>                     
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                            </tr>
+                            <tr>                    
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                           
+                            </tr>
+                        </tbody>
+                    </table> 
+                </details>
+
+                <details>
+                    <summary><b>ELIGIBILITY CRITERIA</b></summary>    
+                    <table class="table border=1">
+                        <thead>                       
+                            <th width="33%" height="100%">NEW</th>                        
+                            <th width="33%" height="100%">EXISTING - WITH CASH</th>
+                            <th width="33%" height="100%">EXISTING - WITHOUT CASH</th>                        
+                        </thead>
+                        <tbody>
+                            <tr>                      
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                            </tr>                        
+                            <tr>                      
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>  
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>                          
+                            </tr>
+                            <tr>                     
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                            </tr>
+                            <tr>                    
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</td>
+                           
+                            </tr>
+                        </tbody>
+                    </table>     
+                </details>  
+                               
+                <details>
+                    <summary><b>LOAN FEATURES</b></summary>                
+                        <table class="table border=1">
+                            <thead>
+                                <th width="30%" height="100%">CRITERIA</th>
+                                <th width="20%" height="100%">NEW</th>                        
+                                <th width="20%" height="100%">EXISTING</th>                        
+                            </thead>
+                            <tbody>
+                            <tr>                       
+                                <td>Maximum Loan Amount</td>
+                                <td>3,000,000</td>
+                                <td>3,000,000</td>
+                            </tr>
+                            <tr>                       
+                                <td>Minimum Loan Amount</td>
+                                <td>500,000</td>
+                                <td>100,000</td>
+                            </tr>
+                            <tr>                       
+                                <td>Maximum Loan Term</td>
+                                <td>24 Monts</td>
+                                <td>48 Monts</td>
+                            </tr>
+                            <tr>                       
+                                <td>Minimum Loan Term</td>
+                                <td>6 Months</td>
+                                <td>6 Months</td>
+                            </tr>
+                            <tr>                       
+                                <td>Interest Rate Term</td>
+                                <td>28% per annum</td>
+                                <td>28% per annum</td>
+                            </tr>
+                            <tr>                       
+                                <td>Frequency</td>
+                                <td>Monthly</td>
+                                <td>Monthly</td>
+                            </tr>
+                            <tr>                       
+                                <td>Compulsary Savings</td>
+                                <td>5%</td>
+                                <td>5%</td>
+                            </tr>
+                            <tr>                       
+                                <td>Client Welfare Fund</td>
+                                <td>0.5%</td>
+                                <td>0.5%</td>
+                            </tr>
+                            <tr>                       
+                                <td>Loan Processing Charges</td>
+                                <td>12 Months - 1.5%<br>
+                                    18 Months - 2.5%<br>
+                                    24 Months - 3.5%<br>
+                                </td>
+                                <td>12 Months - 1.5%<br>
+                                    18 Months - 2.5%<br>
+                                    24 Months - 3.5%<br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+                <details>
+                        <summary><b>REQUIRED DOCUMENTS</b></summary>  
+                        <table class="table border=1">
+                            <thead>                       
+                                <th width="33%" height="100%">NEW</th>                        
+                                <th width="33%" height="100%">EXISTING - WITH CASH</th>
+                                <th width="33%" height="100%">EXISTING - WITHOUT CASH</th>                        
+                            </thead>
+                            <tbody>
+                                <tr>                      
+                                   <td>Lorem ipsum dolor sit amet.</td>
+                                   <td>Lorem ipsum dolor sit amet.</td>
+                                   <td>Lorem ipsum dolor sit amet.</td>
+                                </tr>                        
+                                <tr>                      
+                                    <td>Lorem ipsum dolor sit amet.</td>  
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>                          
+                                </tr>
+                                <tr>                     
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                </tr>
+                                <tr>                    
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                               
+                                </tr>
+                            </tbody>
+                        </table> 
+                </details>
+                <details>
+                    <summary><b>GUARANTORS</b></summary> 
+                    <table class="table border=1">
+                        <thead>
+                        <tr>                       
+                            <th width="30%" height="100%">LOAN AMOUNT</th>                        
+                            <th width="35%" height="100%">GUARANTORS</th>  
+                            <th width="35%" height="100%">NOMINEE</th>                      
+                        </tr>
+                         </thead>
+                        <tbody>
+                        <tr>                       
+                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>Lorem ipsum dolor sit amet. </td>
+                        </tr>
+                        <tr>                      
+                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>Lorem ipsum dolor sit amet.</td>
+                        </tr>
+                        </tbody> 
+                    </table>  
+
+                    </details>  
+                    <details>
+                            <summary><b>LOAN APPROVAL</b></summary>  
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                    </details>  
+                    <details>
+                            <summary><b>FINANCE PROCESS</b></summary>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>  
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                    </details>  
+                    <details>
+                            <summary><b>LOAN DISBURSEMENT</b></summary>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>  
+                            <li>LLorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                    </details>   
+                    <details>
+                            <summary><b>LOAN REPAYMENT</summary></b></summary>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>  
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciati</li>
+                    </details>    
+            </div>           
+                     
+            </body>
+       
+</html>
